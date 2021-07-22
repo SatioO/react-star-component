@@ -18,7 +18,6 @@ export default function Rating(props) {
   }
 
   function onMouseHover(ev) {
-    
     const stars = ev.target.parentElement.getElementsByClassName('star');
     const hoverValue = ev.target.dataset.value;
     Array.from(stars).forEach(star => {
